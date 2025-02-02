@@ -44,7 +44,7 @@ const Header = () => {
           <nav className="flex flex-col p-4 space-y-4">
             <Link href="/" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Home</Link>
             <Link href="/Jets" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Jets</Link>
-            <Link href="/Cbout" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>About</Link>
+            <Link href="/About" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>About</Link>
             <Link href="/Contact" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>Contact</Link>
           </nav>
         </div>
